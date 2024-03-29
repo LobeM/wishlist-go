@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "da2f37ab210702d34c4a92584bde7728"
+name = "wishlist-go"
+handle = "wishlist-go"
+application_url = "https://comparisons-similarly-bc-aims.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "bemba-apparel.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://comparisons-similarly-bc-aims.trycloudflare.com/auth/callback",
+  "https://comparisons-similarly-bc-aims.trycloudflare.com/auth/shopify/callback",
+  "https://comparisons-similarly-bc-aims.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-01"
+
+[pos]
+embedded = false
