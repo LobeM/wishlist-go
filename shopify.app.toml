@@ -3,7 +3,7 @@
 client_id = "da2f37ab210702d34c4a92584bde7728"
 name = "wishlist-go"
 handle = "wishlist-go"
-application_url = "https://total-guestbook-novelty-authors.trycloudflare.com"
+application_url = "https://mods-traveling-singer-tension.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://total-guestbook-novelty-authors.trycloudflare.com/auth/callback",
-  "https://total-guestbook-novelty-authors.trycloudflare.com/auth/shopify/callback",
-  "https://total-guestbook-novelty-authors.trycloudflare.com/api/auth/callback"
+  "https://mods-traveling-singer-tension.trycloudflare.com/auth/callback",
+  "https://mods-traveling-singer-tension.trycloudflare.com/auth/shopify/callback",
+  "https://mods-traveling-singer-tension.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
