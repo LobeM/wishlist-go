@@ -3,7 +3,7 @@
 client_id = "da2f37ab210702d34c4a92584bde7728"
 name = "wishlist-go"
 handle = "wishlist-go"
-application_url = "https://mods-traveling-singer-tension.trycloudflare.com"
+application_url = "https://bra-spots-tech-shuttle.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://mods-traveling-singer-tension.trycloudflare.com/auth/callback",
-  "https://mods-traveling-singer-tension.trycloudflare.com/auth/shopify/callback",
-  "https://mods-traveling-singer-tension.trycloudflare.com/api/auth/callback"
+  "https://bra-spots-tech-shuttle.trycloudflare.com/auth/callback",
+  "https://bra-spots-tech-shuttle.trycloudflare.com/auth/shopify/callback",
+  "https://bra-spots-tech-shuttle.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

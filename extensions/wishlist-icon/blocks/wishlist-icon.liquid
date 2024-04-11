@@ -1,5 +1,5 @@
-<div class="wishlist-go__icon">
-  <button type="button" class="">
+<div class="wishlist-go__icon" x-data="wishlist">
+  <button type="button" @click="addToWishlist()">
     <svg
       class="wishlist-go__icon--svg"
       viewBox="0 0 24 24"
@@ -16,6 +16,18 @@
 </div>
 
 <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+<script>
+  document.addEventListener('alpine:init', () => {
+    Alpine.data('wishlist', () => ({
+      wishlisted: false,
+      addToWishlist() {
+        this.wishlisted = !this.wishlisted;
+        // TODO: send data to database
+      },
+    }));
+  });
+</script>
 
 <style>
   .wishlist-go__icon {
